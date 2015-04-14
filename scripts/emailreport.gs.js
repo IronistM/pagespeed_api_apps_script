@@ -18,7 +18,7 @@ function spreadsheetToPDF(){
   SpreadsheetApp.flush();  //ensures everything on spreadsheet is "done"
   Logger.log("Start the pdf creation!");
 
-  var theurl = 'https://docs.google.com/a/statsravingmad.com/spreadsheets/d/'
+  var theurl = 'https://docs.google.com/a/statsravingmad.com/spreadsheets/d/' // you can see this URL in the browser window
   + key
   + '/export?exportFormat=pdf&format=pdf'
   + '&size=legal'
