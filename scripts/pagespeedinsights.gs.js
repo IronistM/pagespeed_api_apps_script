@@ -28,7 +28,7 @@ function pageSpeedInsights(url,device,filter_third_party_resources,http_secure) 
   var response = UrlFetchApp.fetch(api, {muteHttpExceptions: true });
 
   var result = JSON.parse(response.getContentText()); // yeap, it is JSON
-  
+
   // Example of JSON in order to formulate the score below
   // "kind": "pagespeedonline#result",
   // "id": "http://statsravingmad.com/",
