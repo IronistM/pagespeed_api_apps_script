@@ -18,7 +18,7 @@ function pageSpeedInsights(url,device,filter_third_party_resources,http_secure) 
   
   Logger.log(http_protocol); // for test runs. comment it out if you like
   
-  var key = 'AIzaSyBJW16KnBT_xILW5X6tdyqVB6SoYGkjlQA';     // Get the API key from Google Dev Console
+  var key = 'YOUR API KEY';     // Get the API key from Google Dev Console
   var api = 'https://www.googleapis.com/pagespeedonline/v1/runPagespeed?url=' + http_protocol + url
                 + '&filter_third_party_resources=' + filter_third_party_resources + '&strategy=' + strategy + '&key=' + key;
   
